@@ -4,8 +4,8 @@ jobs:
    job-1:
        runs-on: ubuntu-latest
        steps:
-        -name: step 1
+        -name: step one
         run:
         echo "hello"
-        -name: step 2
+        -name: step two
         run: echo "bye"
